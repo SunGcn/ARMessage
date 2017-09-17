@@ -35,7 +35,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         // 存放所有 3D 几何体的容器
         let scene = SCNScene()
         // 想要绘制的 3D 立方体
-        let boxGeometry = SCNBox(width: 10, height: 1.5, length: 10, chamferRadius: 0.5)
+        let boxGeometry = SCNBox(width: 10, height: 1.2, length: 10, chamferRadius: 0)
         // 将几何体包装为 node 以便添加到 scene
         let boxNode = SCNNode(geometry: boxGeometry)
         boxNode.position = SCNVector3Make(0, 0, -30)
