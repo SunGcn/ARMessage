@@ -12,7 +12,7 @@ import ARKit
 
 extension UIImage {
     func drawTextInImage(text:String)->UIImage {
-        //开启图片上下文
+        
         UIGraphicsBeginImageContext(self.size)
         //图形重绘
         self.draw(in: CGRect(x:0,y:0,width:self.size.width,height:self.size.height))
