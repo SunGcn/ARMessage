@@ -54,7 +54,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
         
         //生成带文字图片
-        let letter:String = "QT真的傻逼啊 安装这么麻烦"
+        let letter:String = "第一条消息 来自 孙港"
         // 取第一个字符(测试了,太长了的话,效果并不好)
         //let letter = (text as NSString).substring(to: 1)
         let sise = CGSize(width: 400, height: 50)
